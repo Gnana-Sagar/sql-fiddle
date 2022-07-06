@@ -1,0 +1,57 @@
+:root {
+  touch-action: pan-x pan-y;
+  height: 100% 
+}
+
+.full-height {
+  height: 45vh;
+  width: '100%';
+  overflow: hidden;
+}
+
+.ace_editor {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.ace_editor div {
+  font: inherit !important
+}
+
+.no-border {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+border-right {
+  border: 1px solid #e8e8e8;
+}
+
+.mr-3 {
+  padding-right: 1px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0px !important;
+  height: 25px;
+  padding-top: 5px;
+}
+.ace-monokai {
+  background-color: #1e1e1e !important;
+}
+.ace-monokai .ace_gutter {
+  background: #1e1e1e;
+}
+
+.ace_print-margin {
+  width: 0px !important;
+}
+.ace-tm .ace_gutter {
+  background: #ffffff;
+}
+
